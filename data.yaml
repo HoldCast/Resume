@@ -1,0 +1,120 @@
+---
+update_time: '2017.10.30'
+name: 朱伟
+nickname: holdcast
+meta_content:
+keywords: 前端,工作,简历
+ga_id: 'UA-92595311-1'
+age: 29岁
+gender: 男
+school: 四川师范大学
+profession: 电子信息工程
+grade:
+english_level: CET-4
+blog:
+github: https://www.github.com/HoldCast
+website: 
+online: https://holdcast.github.io/Resume/
+print: https://holdcast.github.io/Resume/print.html
+apply_to_position: Web前端工程师
+description: !!md |
+
+contact: # 联系方式
+  -
+    icon: fa-envelope
+    name: Email
+    value: 125427446@qq.com
+  -
+    icon: fa-qq
+    name: QQ
+    value: '125427446'
+  -
+    icon: fa-phone-square
+    name: PhoneNumber
+    value: '15828513763'
+honor: # 奖项荣誉
+tech: # 技能点
+  -
+    name: HTML(5)/CSS(3)
+    percentage: 90%
+  -
+    name: JavaScript
+    percentage: 80%
+  -
+    name: PHP
+    percentage: 50%
+  -
+    name: Git
+    percentage: 60%
+  -
+    name: Node.js
+    percentage: 40%
+skill: # 技能清单
+  -
+    des: !!md |
+      能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
+  -
+    des: !!md |
+      在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+  -
+    des: !!md |
+      熟悉 Git Webpack Gulp 等开发工具
+  -
+    des: !!md |
+      熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站
+
+experience: # 项目经验
+  -
+    section: 个人项目
+    project:
+      -
+        name: nunjucks-extend-loader
+        date: 2017.2
+        img:
+        website:
+        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        des: !!md |
+          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+      -
+        name: Resume-it
+        date: 2017.2
+        img:
+        website:
+        source_code: https://github.com/xiao555/Resume-it
+        des: !!md |
+          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 48 star，21 fork，有人用是最好的。
+          
+          最初是用webpack打包的，后来换成了Gulp，简单易用，不必上webpack，后面打算改造成页面可以直接修改的。
+      -
+        name: Blog
+        date: 2017.4-至今
+        img:
+        website:
+        source_code: https://github.com/xiao555/blog
+        des: !!md |
+          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
+          
+          最近参考vue-hacknews2.0对前端部分进行了一次重构，新版本的webpack打包体积好小，实现了按需加载css，服务器部分也正准备上docker，正在写dockerfile中...
+  -
+    section: 企业项目
+    exper:
+      - 
+        company: 方正国际软件有限公司
+        time: 2017.7.14 - 2017.9.1
+        desc: !!md |
+          在TEG研发管理部TAPD中心实习，主要做前端方面的实现需求，解决bug等工作。
+        project:
+          -
+            des: !!md |
+              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
+          -
+            des: !!md |
+              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
+          -
+            des: !!md |
+              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
+          -
+            des: !!md |
+              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
+      - 
+---
